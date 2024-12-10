@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div id="root_div">
+
+        <div id="login_signup_box">
+
+            <div class="login_text">
+                <h2 id="login_header_text">登录</h2>
+            </div>
+
+            <!--  -->
+            <div class="signup_text">
+                <h2 id="signup_header_text">注册</h2>
+            </div>
+
+            <!--登录盒子-->
+            <div id="login_box">
+                <form action="">
+                    <div id="username_box">
+                        <label for="username_id">账号</label>
+                        <input type="number" id="username_id" placeholder="请输入手机号/账号">
+                    </div>
+                    <!--  -->
+                    <div id="userpassword_box">
+                        <label for="userpassword_id">密码</label>
+                        <input type="password" id="userpassword_id" placeholder="请输入密码">
+                    </div>
+                    <!--  -->
+                    <div id="remember_forget_password">
+                        <input type="checkbox" id="remember_password_id" checked>
+                        <label for="remember_password_id">记住密码</label>
+                        <!-- 忘记密码 -->
+                        <a href="">忘记密码？</a>
+                    </div>
+                    <!--  -->
+                    <button id="login_btn">
+                        <a href="">登录</a>
+                    </button>
+                    <!--  -->
+                    <div id="signup_id">
+                        <span>还没有密码？</span>
+                        <a href="">点击注册</a>
+                    </div>
+                    <!--  -->
+
+                </form>
+            </div>
+
+
+
+
+            <!--上面是登录的form-->
+
+
+
+
+            <div id="signup_box">
+
+                <form action="">
+                    <div>
+                        <label for="signup_username_id">账号</label>
+                        <input type="password" id="signup_username_id" placeholder="请输入手机号/用户名">
+                    </div>
+                    <!--  -->
+                    <div>
+                        <label for="">邮箱</label>
+                        <input type="email" placeholder="请输入邮箱">
+
+                    </div>
+                    <!--  -->
+                    <div>
+                        <label for="signup_userpassword_id_01">密码</label>
+                        <input type="password" id="signup_userpassword_id_01" placeholder="请输入密码">
+                    </div>
+                    <!--  -->
+                    <div>
+                        <label for="signup_userpassword_id_02">密码</label>
+                        <input type="password" id="signup_userpassword_id_02" placeholder="请再次输入密码">
+                    </div>
+                    <!--  -->
+                    <button id="signup_btn">注册</button>
+                    <!--  -->
+                </form>
+
+            </div><!--signup_box注册div END-->
+
+        </div> <!--login_signup_box登录注册div END-->
+
+    </div> <!--root_div END-->
+    <script src="./index.js"></script>
+</body>
+
+</html>

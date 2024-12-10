@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#root_div {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    /* background-color:gray; */
+    background-image: url(./image/你的名字.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login_signup_box {
+    width: 400px;
+    height: 450px;
+    position: relative;
+    /* 作用为参照物 */
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 25px;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_text {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    cursor: pointer;
+}
+
+.signup_text {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    cursor: pointer;
+}
+
+.login_text h2,
+.signup_text h2 {
+    color: #FB7299;
+}
+
+#login_box {
+    color: #FB7299;
+    /* display: none; */
+    /* 登录页面隐藏 默认关闭！*/
+}
+
+#username_box,
+#userpassword_box {
+    /* 账号和密码的div */
+    margin-top: 10px;
+}
+
+#remember_forget_password {
+    margin-top: 20px;
+    vertical-align: middle;
+    accent-color: blue;
+    /* display: inline-block; */
+}
+
+#remember_forget_password input,
+#remember_forget_password label {
+    cursor: pointer;
+}
+
+#remember_forget_password a {
+    /* 忘记密码的标签 */
+    float: right;
+    color: red;
+}
+
+#login_btn {
+    /* 登录按钮 */
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: #fb7299;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  */
+    font-size: 20px;
+}
+
+#login_btn a {
+    color: white;
+}
+
+#signup_id {
+    /* 点击注册密码页面 */
+    margin-top: 20px;
+    text-align: center;
+}
+
+#signup_id a {
+    color: green;
+}
+
+/* 登录注册分界线 */
+
+#signup_box {
+    color: pink;
+    display: none;
+    /* 注册页面隐藏,默认打开*/
+}
+
+#signup_btn {
+    /* 注册按钮 */
+    width: 100%;
+    height: 40px;
+    background-color: #FB7299;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+
+}
+
+/* .signup_btn {} */
